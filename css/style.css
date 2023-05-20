@@ -18,7 +18,7 @@ p {
   color: #494949;
 }
 
-.tSlow, .social li:hover i, .social li:hover, .social li i, .social li, .copyr a, .tumblr, .rombo_effect, .diamante, .rounded-circle, button, input,
+.tSlow, .social li:hover a, .social li:hover, .social li a, .social li, footer li a:hover, .copyr a, .tumblr, .rombo_effect, .diamante, .rounded-circle, button, input,
 select,
 option,
 textarea, nav ul li a::after, nav ul li a::before, nav ul li a, nav ul .link-active a::after, nav ul, nav .logo img, nav, a {
@@ -87,7 +87,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 16px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(128, 128, 128, 0.8);
 }
 nav ul li a::before {
   content: "";
@@ -289,7 +289,7 @@ footer ul li {
 }
 footer a {
   opacity: 0.5;
-  color: rgba(231, 136, 12, 0.6156862745);
+  color: #ffffff;
 }
 footer hr {
   border-radius: 10px;
@@ -328,6 +328,26 @@ footer hr {
   opacity: 1;
 }
 
+footer p {
+  margin: 0px;
+  padding: 0px;
+}
+footer li {
+  font-size: small;
+}
+footer li a {
+  color: black;
+  text-decoration: none;
+}
+footer li a:hover {
+  color: #41607c;
+}
+footer ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
 .social {
   margin-top: 5px;
 }
@@ -341,11 +361,12 @@ footer hr {
   cursor: pointer;
   text-align: center;
   transform: rotate(0deg);
+  color: white;
   backface-visibility: hidden;
 }
-.social li i {
+.social li a {
   font-size: 22px;
-  color: rgba(255, 255, 255, 0.2);
+  color: white;
   transform: rotate(0deg) translate(-3px, 3px);
   backface-visibility: hidden;
 }
@@ -354,9 +375,9 @@ footer hr {
   background-color: white;
   backface-visibility: hidden;
 }
-.social li:hover i {
+.social li:hover a {
   font-size: 22px;
-  color: #060a0f;
+  color: black;
   transform: rotate(-45deg) translate(-3px, 3px);
   backface-visibility: hidden;
   transform: rotate(-45deg) translate(-3px, 3px);

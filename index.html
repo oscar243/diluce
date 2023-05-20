@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Diluce</title>
+
+    <!--SEO-->
+    <meta name="author" content="myweb">
+    <meta name="copyright" content="&copy; Joystick 2022">
+    <meta name="email" content="">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Expertos en fotografia">
+    <meta name="keywords" content="foto, fotografia, ...">
+
+    <!-- Reposividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Social Cards-->
+    <meta property="og:url" content="https//www.Diluce.dom">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Diluce">
+    <meta property="og:description" content="Expertos en ...">
+    <meta property="og:image" content="//link_image">
+
+    <!-- Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Slider Slippry -->
+    <link rel="stylesheet" href="/css/slippry.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/5851c76a01.js"></script>
+
+     <!-- Bootstrap-->
+     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+     crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <!-- navegacion -->
+    <nav id="nav">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Nuestro logotipo -->
+                <div class="col-xl-2">
+                    <a href=# class="logo">
+                        <img src="/images/logo.png" alt="Logo Diluce" srcset="">
+                    </a>
+                </div>
+                <!-- Links de navegación-->
+                <div class="col-xl-10">
+                    <ul>
+                        <li class="link-active"><a href="/index.html">Inicio</a></li>
+                        <li><a href="/index.html#nosotros">Nosotros</a></li>
+
+                        <li><a href=#Portafolio>Portafolio</a></li>
+                        <!--"/portafolio.html"-->
+                        <li><a href=#Contacto>Contacto</a></li>
+                        <!--"/contacto.html"-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- navegacion end -->
+
+    <!-- slider -->
+    <section id="slider">
+        <ul id="slippry">
+            <li>
+                <h3 class="left top_150">Tus momentos más especiales</h3>
+                <p class="left top_200">En Diluce, convertimos tus momentos más preciosos en recuerdos duraderos.
+                </p>
+                <button onclick="redirectToContact()" class="left top_250 black">Escríbenos</button>
+                <img src="/images/slide_01.jpg" alt="slide 1">
+            </li>
+
+            <li>
+                <h3 class="right top_150 white_bg">Cuenta con nosotros</h3>
+                <p class="right top_200 white_bg">Captura momentos especiales con calidad y profesionalismo con nuestro equipo de fotógrafos expertos.</p>
+                <img src="/images/slide_02.jpg" alt="slide 2">
+            </li>
+
+            <li>
+                <h3 class="left_150 top_200 color_white_slider">Más que fotografía</h3>
+                <p class="left_150 top_250 width_400 color_white_slider">Cada imagen cuenta una
+                    historia única y nos esforzamos por capturarla con creatividad y calidad.</p>
+                <button onclick="redirectToContact()" class="left_150 top_325 black">Contáctanos</button>
+                <img src="/images/slide_03.jpg" alt="slide 3">
+            </li>
+        </ul>
+    </section>
+    <!-- slider end-->
+
+    <!-- nosotros -->
+    <div class="pad_100" id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="center">
+                        Estos somos nosotros
+                    </h1>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="d-flex align-items-center">
+                    <div class="col-xl-6">
+                        <div class="diamante">
+
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <h3><strong>Diluce:</strong><span> El auténtico sabor colombiano</span></h3>
+                        <p class="p_justify">Somos Diluce, una empresa fundada en 2022 por tres amigos. Nos apasiona crear delicioso Arequipe de Café y brindar la mejor experiencia a nuestros consumidores. ¡Disfruta de nuestro sabor único y auténtico!</p>
+                        <button onclick="redirectToContact()" class="left top_250 black">contáctanos</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nosotros end -->
+
+    <!-- Servicios -->
+    <div class="pad_100" id="Portafolio">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="center">Nuestros Servicios</h1>
+                    <br><br>
+                    <h3 class="center">Capturamos tus recuerdos</h3>
+                    <br><br>
+                </div>
+                
+                <div class="row">
+
+                    <div class="col-xl-4 center">
+                        <img src="/images/square_03.jpg" alt="" class="rounded-circle servicio_img">
+                        <h2>Eventos</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque praesentium recusandae autem quaerat eligendi adipisci fugit rem, labore similique eveniet ipsa deserunt, non, nulla officia odio quasi. Nesciunt, voluptatibus.</p>
+                        <button>Leer más &raquo;</button>
+                    </div>
+
+                    <div class="col-xl-4 center">
+                        <img src="/images/square_02.jpg" alt="" class="rounded-circle servicio_img">
+                        <h2>Eventos</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque praesentium recusandae autem quaerat eligendi adipisci fugit rem, labore similique eveniet ipsa deserunt, non, nulla officia odio quasi. Nesciunt, voluptatibus.</p>
+                        <button>Leer más &raquo;</button>
+                    </div>
+
+                    <div class="col-xl-4 center"> 
+                        <img src="/images/square_10.jpg" alt="" class="rounded-circle servicio_img">
+                        <h2>Eventos</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus neque praesentium recusandae autem quaerat eligendi adipisci fugit rem, labore similique eveniet ipsa deserunt, non, nulla officia odio quasi. Nesciunt, voluptatibus.</p>
+                        <button>Leer más &raquo;</button>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Serviciós END -->
+
+    <!-- footer -->
+    <footer id="Contacto">
+        <div class="container">
+            <div class="row">
+                <!---->
+                <div class="col-xl-2">
+                    <p class="white"><strong>Mapa del sitio</strong></h1>
+                    <ul>
+                        <li class="white small">Inicio</li>
+                        <li class="white small">Nosotros</li>
+                        <li class="white small">Portafolio</li>
+                        <li class="white small">Contacto</li>
+                </div>
+                <!---->
+
+                <div class="col-xl-6">
+                    <img src="/images/square_01.jpg" alt="imagen 01" class="tumblr">
+                    <img src="/images/square_02.jpg" alt="imagen 02" class="tumblr">
+                    <img src="/images/square_03.jpg" alt="imagen 03" class="tumblr">
+                    <img src="/images/square_04.jpg" alt="imagen 04" class="tumblr">
+                    <img src="/images/square_05.jpg" alt="imagen 05" class="tumblr">
+                    <img src="/images/square_06.jpg" alt="imagen 06" class="tumblr">
+                    <img src="/images/square_07.jpg" alt="imagen 07" class="tumblr">
+                    <img src="/images/square_08.jpg" alt="imagen 08" class="tumblr">
+                    <img src="/images/square_09.jpg" alt="imagen 09" class="tumblr">
+                    <img src="/images/square_10.jpg" alt="imagen 10" class="tumblr">
+                </div>
+                <!---->
+
+                <div class="col-xl-4">
+                    <p class="white"><strong>Contacto</strong></p>
+                    <ul>
+                        <li class="small white">+57 3213472457</li>
+                        <li class="small white">Dilucesas@gmail.com</li>
+                        <!--li class="small white">John Doe / <i>Fotógrafo</i></li-->
+                    </ul>
+                    <br>
+                    <p class="white small"><strong>Redes Sociales</strong></p>
+                    <ul class="social">
+                        <li><a href="https://www.instagram.com/diluce.sas/" class="fa fa-instagram"></a></li>
+                        <!--li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-youtube"></i></li>
+                        <li><i class="fa fa-tumblr fa-pencil"></i></li-->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <div class="copyr">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="small">&copy; 2023 Todos los derechos reservados por <a href="#">Diluce</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="/js/slippry.min.js"></script>
+
+    <!-- Activar scripts -->
+    <script>
+        $(document).ready(function () {
+            $('#slippry').slippry({
+                captions: false,
+                pager: false
+
+            })
+
+        
+            /**Detectar ancho de diamante**/
+            var dn_width = $('.diamante').width();
+            $('.diamante').css({
+                height: dn_width
+            });
+
+            /**Detectar alto de slider**/
+            var slider_height = $('#slider').height();
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                if (scroll >= $("#nosotros").offset().top -100){
+                    $("#nav").addClass("nav-overlay");
+                }
+                else{
+                    $("#nav").removeClass("nav-overlay");
+                }
+            });
+            $(window).scroll()
+
+        })
+
+        function redirectToContact() {
+        window.location.href = '#Contacto';
+    }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
